@@ -1,31 +1,30 @@
 {
   "name": "jstransformer-atpl",
-  "version": "0.0.1",
-  "description": "atpl support for JS Transformers.",
+  "version": "0.1.0",
+  "description": "atpl support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
-  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "atpl": "^0.7.8"
   },
   "devDependencies": {
-    "istanbul": "^0.3.5",
-    "testit": "^2.0.2"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
-  "files": [
-    "index.js",
-    "README.md",
-    "LICENSE"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-atpl.git"
+    "url": "https://github.com/jstransformers/jstransformer-foo.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>"
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
