@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-var atpl = require('atpl');
+var atpl = require('atpl')
 
-exports.name = 'atpl';
-exports.outputFormat = 'html';
-exports.compile = atpl.internalCompileString;
+exports.name = 'atpl'
+exports.outputFormat = 'html'
+exports.compile = atpl.internalCompileString
