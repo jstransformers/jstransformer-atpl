@@ -1,6 +1,6 @@
 'use strict'
 
-var atpl = require('atpl')
+const atpl = require('atpl')
 
 exports.name = 'atpl'
 exports.outputFormat = 'html'
