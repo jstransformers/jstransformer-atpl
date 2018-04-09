@@ -1,7 +1,5 @@
 # jstransformer-atpl
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-atpl.svg)](https://greenkeeper.io/)
-
 [atpl](http://github.com/soywiz/atpl.js) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-atpl/master.svg)](https://travis-ci.org/jstransformers/jstransformer-atpl)
